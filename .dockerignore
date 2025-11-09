@@ -1,0 +1,7 @@
+config.yaml
+.git
+.github
+*.md
+LICENSE
+.env
+.DS_Store
