@@ -8,5 +8,5 @@ make sure you have Docker installed and both the source (MySQL) and target (Post
 docker run --rm \
   -e V1_DSN='govd:password@tcp(db_v1:3306)/govd?charset=utf8mb4&parseTime=True&loc=Local' \
   -e V2_DSN='postgres://govd:password@db_v2:5432/govd?sslmode=disable' \
-  govdbot/migrate:latest
+  govdbot/migrate:main
 ```
